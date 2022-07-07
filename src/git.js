@@ -12,6 +12,7 @@ const {
 	GIT_USERNAME,
 	GIT_EMAIL,
 	TMP_DIR,
+	COMMIT_MESSAGE,
 	COMMIT_BODY,
 	COMMIT_PREFIX,
 	GITHUB_REPOSITORY,
@@ -509,7 +510,7 @@ class Git {
 		const request = await this.github.git.createCommit({
 			owner: this.repo.user,
 			repo: this.repo.name,
-			message: commitMessage,
+			message: COMMIT_MESSAGE ? COMMIT_MESSAGE : commitMessage,
 			parents: [ this.lastCommitSha ],
 			tree: treeSha
 		})

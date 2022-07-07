@@ -48,6 +48,11 @@ try {
 			key: 'COMMIT_PREFIX',
 			default: '🔄'
 		}),
+		COMMIT_MESSAGE: getInput({
+			key: 'COMMIT_MESSAGE',
+			type: 'string',
+			default: '',
+		}),
 		COMMIT_EACH_FILE: getInput({
 			key: 'COMMIT_EACH_FILE',
 			type: 'boolean',
