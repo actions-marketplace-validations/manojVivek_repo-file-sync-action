@@ -1,4 +1,4 @@
-name: 'Repo File Sync Action'
+name: 'Repo File Sync Action With Commit Message'
 description: 'GitHub Action to Sync Files like Workflows Between Repositories.'
 author: 'manojVivek'
 
