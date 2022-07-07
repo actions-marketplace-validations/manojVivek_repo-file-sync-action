@@ -1,6 +1,6 @@
 name: 'Repo File Sync Action'
 description: 'GitHub Action to Sync Files like Workflows Between Repositories.'
-author: 'BetaHuhn'
+author: 'manojVivek'
 
 inputs:
   GH_PAT:
