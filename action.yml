@@ -39,6 +39,10 @@ inputs:
     description: |
       Prefix for commit message and pull request title. Defaults to 🔄
     required: false
+  COMMIT_MESSAGE:
+    description: |
+      Use this commit message instead of the default from commit data.  Defaults to ''
+    required: false
   COMMIT_BODY:
     description: |
       Commit message body. Will be appended to commit message, separated by two line returns. Defaults to ''
